@@ -71,6 +71,13 @@
   box-shadow: 0 0 5px black;
 }
 
+.todos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 800px) {
   .heading {
     margin: 15px 0;
